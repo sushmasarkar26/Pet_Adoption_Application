@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b2edb2d.css",
+    "main.js": "/static/js/main.d27a9797.js",
+    "static/js/787.1728c284.chunk.js": "/static/js/787.1728c284.chunk.js",
+    "static/media/developer-png.png": "/static/media/developer-png.d420d289f8c643d9857f.png",
+    "static/media/postPet.png": "/static/media/postPet.37270a435414519a0370.png",
+    "static/media/girlHoldingADog.png": "/static/media/girlHoldingADog.81cb11ec5b386f9189ad.png",
+    "static/media/homepageDog.png": "/static/media/homepageDog.3db4a4c8121477797150.png",
+    "static/media/adoptPet.png": "/static/media/adoptPet.b07997b342927ad1ca0b.png",
+    "static/media/HomeDarkCardLeftPic.png": "/static/media/HomeDarkCardLeftPic.9738ca591ed19a4030f3.png",
+    "static/media/HomeDarkCardRightPic.png": "/static/media/HomeDarkCardRightPic.e156fbfb2024fde24666.png",
+    "static/media/logo.png": "/static/media/logo.05d6ae81a0721ba2d851.png",
+    "static/media/footPrint.png": "/static/media/footPrint.212b16d10fb566ed6047.png",
+    "index.html": "/index.html",
+    "main.6b2edb2d.css.map": "/static/css/main.6b2edb2d.css.map",
+    "main.d27a9797.js.map": "/static/js/main.d27a9797.js.map",
+    "787.1728c284.chunk.js.map": "/static/js/787.1728c284.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b2edb2d.css",
+    "static/js/main.d27a9797.js"
+  ]
+}
