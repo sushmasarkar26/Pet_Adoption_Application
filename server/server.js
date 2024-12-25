@@ -29,6 +29,10 @@ app.use('/admin', AdminRoute)
 //   res.sendFile(path.join(__dirname, "../client/build/index.html"));
 // });
 
+app.get("/", (req,res) => {
+  res.send("Welcome");
+});
+
 mongoose.connect(process.env.mongooseURL)
     .then(() => {
         console.log('Connected to DB');
