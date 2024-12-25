@@ -21,6 +21,14 @@ app.use(petRouter)
 app.use('/form', AdoptFormRoute)
 app.use('/admin', AdminRoute)
 
+//STATIC FOLDER
+app.use(express.static(path.join(__dirname,'../client/build')));
+
+//STATIC ROUTES
+app.get("*", function (Request, res){
+  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+})
+
 mongoose.connect(process.env.mongooseURL)
     .then(() => {
         console.log('Connected to DB');
