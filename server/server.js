@@ -33,8 +33,7 @@ app.get("/", (req,res) => {
   res.send("Welcome");
 });
 
-// mongoose.connect(process.env.mongooseURL)
-  mongoose.connect("mongodb+srv://SushmaSarkar:hp3ALtfb1Z76vngc@mypet.6llbx.mongodb.net/MyPet")
+mongoose.connect(process.env.mongooseURL)
     .then(() => {
         console.log('Connected to DB');
         const PORT = 4000;
