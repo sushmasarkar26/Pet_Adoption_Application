@@ -22,12 +22,12 @@ app.use('/form', AdoptFormRoute)
 app.use('/admin', AdminRoute)
 
 //STATIC FOLDER
-// app.use(express.static(path.join(__dirname,'../client/build')));
+app.use(express.static(path.join(__dirname,'../client/build')));
 
-// //STATIC ROUTES
-// app.get("*", function (Request, res){
-//   res.sendFile(path.join(__dirname, "../client/build/index.html"));
-// });
+//STATIC ROUTES
+app.get("*", function (Request, res){
+  res.sendFile(path.join(__dirname, "../client/build/index.html"));
+});
 
 app.get("/", (req,res) => {
   res.send("Welcome");
