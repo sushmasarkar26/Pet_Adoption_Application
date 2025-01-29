@@ -1,5 +1,5 @@
 # Pet_Adoption_Application
-It is Pet Adoption Application.
+
 ### LIVE LINK: https://pet-adoption-application.vercel.app/
 
 Developed Pet Adoption System, a full-stack web application to simplify the process of adopting pets and giving pets up for adoption.
