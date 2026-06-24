@@ -14,7 +14,7 @@ const Layout = ({ children }) => (
   <>
     <Navbar title="MyPet" />
     {children}
-    <Footer title="Mypet" />
+    <Footer title="MyPet" />
   </>
 );
 
