@@ -9,7 +9,15 @@ const path = require('path');
 
 const app = express();
 
-app.use(cors());
+// app.use(cors());
+
+app.use(cors({
+  origin: [
+    "https://pet-adoption-application.vercel.app"
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
+  credentials: true
+}));
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
@@ -37,7 +45,7 @@ mongoose.connect(process.env.mongooseURL)
     .then(() => {
         console.log('Connected to DB');
         const PORT = 4000;
-        app.listen(PORT,  () => {
+        app.listen(PORT, "0.0.0.0",  () => {
             console.log(`Listening on port ${PORT}`)
         })
     })
