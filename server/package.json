@@ -8,6 +8,9 @@
     "server": "node server.js",
     "client": "npm start --prefix ./client"
   },
+  "engines": {
+    "node": "26.x"
+  }
   "author": "Sushma",
   "license": "ISC", 
   "dependencies": {
